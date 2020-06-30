@@ -11,7 +11,6 @@ class EmailAddressParser
     end
 
     def parse
-        #binding.pry
         parser = list.split(/, | /).uniq
     end
 end
